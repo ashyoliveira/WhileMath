@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WhileMath | Tabuada</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="caixa">
+
+        <span class="etiqueta">JAVASCRIPT • WHILE</span>
+
+        <h1>While<span>Math</span></h1>
+
+        <p class="descricao">
+            Digite um número e descubra sua tabuada.
+        </p>
+
+        <div class="entrada">
+            <label for="num">Escolha um número</label>
+
+            <input
+                type="number"
+                id="num"
+                placeholder="Exemplo: 7"
+            >
+        </div>
+
+        <button type="button" onclick="gerarTabuada()">
+            Calcular Tabuada
+        </button>
+
+        <div id="tela-resultado">
+            <p class="mensagem-inicial">
+                Aguardando um número...
+            </p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
